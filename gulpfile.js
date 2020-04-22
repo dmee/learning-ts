@@ -4,16 +4,7 @@ const clean = require('gulp-clean');
 const ts = require('gulp-typescript');
 
 gulp.task('scripts', function () {
-	return gulp
-		.src('src/**/*.ts')
-		.pipe(
-			ts({
-				noImplicitAny: true,
-				declaration: false,
-				lib: ['es2015'],
-			})
-		)
-		.pipe(gulp.dest('dist'));
+	return gulp.src('src/**/*.ts').pipe(ts()).pipe(gulp.dest('dist'));
 });
 gulp.task('clean', function () {
 	return gulp.src('dist').pipe(clean());
