@@ -1,8 +1,0 @@
-interface Point {
-  x: number;
-  readonly y: number;
-}
-
-let p1: Point = { x: 10, y: 20 };
-p1.x = 5; // ok!
-// p1.y = 5; // error!
