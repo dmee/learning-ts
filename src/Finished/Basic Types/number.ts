@@ -9,3 +9,4 @@ let binaryLiteral: number = 0b1010;
 
 // 八进制
 let octalLiteral: number = 0o744;
+export {};

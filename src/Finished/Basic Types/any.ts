@@ -12,3 +12,4 @@ prettySure.toFixed(); // Error: Property 'toFixed' doesn't exist on type 'Object
 let list: any[] = [1, true, 'free'];
 
 list[1] = 100;
+export {};

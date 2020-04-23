@@ -8,3 +8,4 @@ function f(shouldInitialize: boolean) {
 
 f(true); // returns '10'
 f(false); // returns 'undefined'
+export {};

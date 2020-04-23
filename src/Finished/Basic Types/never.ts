@@ -18,3 +18,4 @@ function fail() {
 function infiniteLoop(): never {
 	while (true) {}
 }
+export {};
